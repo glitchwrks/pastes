@@ -1,0 +1,17 @@
+{
+    "description": "Schema for a POST to Glitch Works PasteApp",
+    "type": "object",
+    "required": ["name"],
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 8
+        },
+        "content": {
+          "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "minProperties": 2
+}

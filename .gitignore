@@ -1,0 +1,13 @@
+*.log
+database.yml
+email.yml
+recaptcha.yml
+
+# Ingore SimpleCov coverage reporting
+/coverage/
+
+# Ignoring editor tempfiles
+*~
+
+# Ignore development PIDfile
+*.pid
