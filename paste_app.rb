@@ -34,6 +34,7 @@ class PasteApp < Sinatra::Base
 
     if service.paste.valid?
       service.paste.save!
+      content_type :text
       halt 201
     else
       content_type :json
