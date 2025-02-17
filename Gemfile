@@ -11,6 +11,7 @@ gem 'activesupport'
 gem 'bcrypt'
 gem 'uuidtools'
 gem 'json-schema'
+gem 'ostruct'
 
 group :development do
   gem 'bcrypt_pbkdf'

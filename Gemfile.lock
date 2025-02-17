@@ -186,6 +186,7 @@ DEPENDENCIES
   json-schema
   mocha
   mysql2
+  ostruct
   puma
   rack-test
   rackup
