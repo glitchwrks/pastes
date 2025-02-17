@@ -16,4 +16,4 @@ bind 'tcp://localhost:8082'
 
 workers 4
 
-pidfile '/home/counters/counters.pid'
+pidfile '/home/pastes/pastes.pid'
