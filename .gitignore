@@ -1,7 +1,5 @@
 *.log
 database.yml
-email.yml
-recaptcha.yml
 
 # Ingore SimpleCov coverage reporting
 /coverage/
@@ -11,3 +9,6 @@ recaptcha.yml
 
 # Ignore development PIDfile
 *.pid
+
+# Ignore `aspell` backup files
+*.bak
