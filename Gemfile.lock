@@ -156,7 +156,7 @@ GEM
     timeout (0.4.3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    uri (1.0.2)
+    uri (1.0.3)
     uuidtools (2.2.0)
 
 PLATFORMS
@@ -199,6 +199,7 @@ DEPENDENCIES
   sinatra
   sinatra-activerecord
   timecop
+  uri (>= 1.0.3)
   uuidtools
 
 BUNDLED WITH
