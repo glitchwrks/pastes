@@ -91,11 +91,7 @@ GEM
     public_suffix (6.0.1)
     puma (6.6.0)
       nio4r (~> 2.0)
-<<<<<<< HEAD
     rack (3.2.2)
-=======
-    rack (3.1.14)
->>>>>>> 223b4af (Bumping gem versions of rack, rack-session for security advisory)
     rack-protection (4.1.1)
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
